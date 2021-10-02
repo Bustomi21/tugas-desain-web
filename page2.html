@@ -3,37 +3,53 @@
     <head>
         <meta charset="utf-8"/>
         <title>Dokumen HTML</title>
+        <!--titel di gunakan sebagai judul konten pada tab website-->
         <link rel="icon" type="image/jpg" href="favicon.jpg"/>
+        <!--Script link ini di gunakan untuk memunculkan logo pada tab website -->
     </head>
     <body>
-        <button class="button button1"><a href="page1.html">Beranda</a></button>
-        <button class="button button2"><a href="page2.html">Riwayat Hidup & Pendidikan</a></button>
-        <button class="button button2"><a href="page3.html">Visi & Misi</a></button>
-    <header>
-      <center><h2>Riwayat Hidup & Pendidikan</h2></center>
-    </header>
-    
+
+        <header>
+            <h1>Data Profil Saya</h1>
+        <nav class="navigation-bar">
+            <h2>Navigasi Halaman</h2>
+        <ul>
+            <button class="button button1"><a href="page1.html">Beranda</a></button>
+            <button class="button button2"><a href="page2.html">Riwayat Hidup & Pendidikan</a></button>
+            <button class="button button2"><a href="page3.html">Visi & Misi</a></button>
+        </ul>
+        </nav>
+        </header>
+
+    <main>
     <section>
-      
+        <center><h1>Riwayat Hidup & Pendidikan</h1></center>
       <article>
-            <h1>Riwayat Hidup</h1>
-                <p>Saya lahir pada tanggal 21 Nopember 2001 Banyuwangi Jawa timur di Rumah Sakit Bunda pada bulan Ramadhan tepat pukul 10:50 WIB,
-                    saya sekarang tinggal di Desa Bimorejo, Kecamatan Wongsorejo, Kabupaten Banyuwangi sebuah Desa kecil yang berada di Kabupaten Banyuwangi
-                    paling utara berbatasan dengan Taman Nasional Baluran. Saya sekarang tinggal bersama kedua orang tua dan saya mempunyai seorang adik perempuan
+            <h2>Riwayat Hidup</h2>
+                <p>Saya lahir pada tanggal <time datetime="21 Nopember 2001"></time> 
+                    Banyuwangi Jawa timur di Rumah Sakit Bunda pada bulan Ramadhan tepat pukul <time>10:50 WIB</time>,
+                    saya sekarang tinggal di Desa Bimorejo, Kecamatan Wongsorejo, Kabupaten Banyuwangi sebuah
+                    Desa kecil yang berada di Kabupaten Banyuwangi paling utara berbatasan dengan Taman Nasional Baluran. 
+                    Saya sekarang tinggal bersama kedua orang tua dan saya mempunyai seorang adik perempuan
                     yang masih kelas 3 SD
                 </p>
-            <h1>Riwayat Pendidikan</h1>
+            </article>
+        <article>
+            <h2>Riwayat Pendidikan</h2>
             <p>
+        <!--Saya Menggunakan tag <ol> agar teks nya dapat terurut, Selanjutnya saya menggunakan tag <li> 
+            untuk menentukan item pada list -->
                 <ol>
-                <li>TK Riyadlus Sholihin <em>(2007-2009)</em></li>
-                <li>MI Al Ma'arif <em>(2009-2014)</em></li>
-                <li>MTsN 12 Banyuwangi <em>(2014-2017)</em></li>
-                <li>SMA Ibrahimy <em>(2017-2020)</em></li>
-                <li>Sekolah Tinggi Ilmu Komputer Banyuwangi <em>(2020-Sekarang)</em></li>
+                <li>TK Riyadlus Sholihin <em><time>(2007-2009)</time></em></li>
+                <li>MI Al Ma'arif <em><time>(2009-2014)</time></em></li>
+                <li>MTsN 12 Banyuwangi <em><time>(2014-2017)</time></em></li>
+                <li>SMA Ibrahimy <em><time>(2017-2020)</time></em></li>
+                <li>Sekolah Tinggi Ilmu Komputer Banyuwangi <em><time>(2020-Sekarang)</time></em></li>
                 </ol>
             </p>
-      </article>
+            </article>
     </section>
+    </main>
     
     </body>
     </html>

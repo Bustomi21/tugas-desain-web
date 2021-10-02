@@ -3,27 +3,52 @@
     <head>
         <meta charset="utf-8"/>
         <title>Dokumen HTML</title>
+        <!--titel di gunakan sebagai judul konten pada tab website-->
         <link rel="icon" type="image/jpg" href="favicon.jpg"/>
+        <!--Script link ini di gunakan untuk memunculkan logo pada tab website -->
     </head>
     <body>
-        <button class="button button1"><a href="page1.html">Beranda</a></button>
-        <button class="button button2"><a href="page2.html">Riwayat Hidup & Pendidikan</a></button>
-        <button class="button button2"><a href="page3.html">Visi & Misi</a></button>
-    <header>
-     <center><h2>Beranda</h2></center> 
-    </header>
-    
-    <section>
-      
-      <article>
-            <h1>Tentang Saya</h1>
+       
+        <header>
+            <!--Saya menggunakan tag <header> untuk menentukan kepala pada bagian halaman-->
+            <h1>Data Profil Saya</h1>
+        <nav class="navigation-bar">
+            <h2>Navigasi Halaman</h2>
+            <!--Saya menggunakan tag <nav> untuk Area yang berisi navigasi halaman, Selanjutnya 
+                saya menggunakan tag <ul> untuk menentukan daftar tidak terurut-->
+            <ul>
+            <button class="button button1"><a href="page1.html">Beranda</a></button>
+            <button class="button button2"><a href="page2.html">Riwayat Hidup & Pendidikan</a></button>
+            <button class="button button2"><a href="page3.html">Visi & Misi</a></button>
+            </ul>
+        </nav>
+        </header>
+
+         <main>
+            <!--Saya menggunakan tag <main> Untuk Bagian utama dari halaman web-->
+         <center><h1>Beranda</h1></center>
+            <!--Saya menggunakan element <center> untuk memposisikan teks berada di bagian tengah,
+                Selanjutnya saya menggunakan element <h1> sebagai Heading 1 atau (judul)-->
+         <article>
+            <!--Saya menggunakan <article> digunakan untuk memberi mark up sebuah independent content, artinya 
+                element itu dapat berdiri sendiri sebagai sebuah konten utuh yang tidak terikat dengan konten lain 
+                (element lain).-->
+            <h2>Tentang Saya</h2>
+             <!--Saya menggunakan <h2> Sebagai heading 2 (Subjudul)-->
+             <!--Saya mengunakan tag <p> untuk paragraf konten saya, Selanjutnya menggunakan tag <strong> 
+                untuk menunjukkan teks yang bersifat Bold, Selanjutnya saya menggunakan tag <time datetime=""> untuk
+                menunjukkan tanggal kelahiran, Selanjutnya saya menggunakan tag <q> 
+                digunakan untuk membungkus teks-teks rujukan (quote), Selanjutnya saya menggunakan tag <em> agar untuk
+                font berubah menjadi italic, dan saya menggunakan tag <u> untuk menambahkan garis underlined .-->
                 <p>Hai! Perkenalkan nama saya <strong>MOH. BUSTOMI RAMDANA</strong>.Saya adalah mahasiswa di STIKOM PGRI Banyuwangi.
-                Saya Lahir pada tangal 21 Nopember 2001 Banyuwangi Jawa timur
-                dan umur saya 19 tahun.Saya tingal di Desa kecil di bagian paling utara 
-                kabupaten Banyuwangi yaitu Desa Bimorejo Kecamatan Wongsorejo.
-                Mari kita belajar dan bangkit bersama. <strong><em><u>Semangat!</u></em></strong>
+                Saya Lahir pada tanggal <time datetime="21 Nopember 2001"></time>  Banyuwangi Jawa timur
+                dan umur saya 19 tahun.Saya tinggal di Desa kecil di bagian paling utara 
+                Kabupaten Banyuwangi yaitu Desa Bimorejo Kecamatan Wongsorejo.
+                <q>Mari kita belajar dan bangkit bersama.</q> <strong><em><u>Semangat!</u></em></strong>
                 </p>
-            <h1>Keahlian</h1>
+            </article>
+            <article>
+            <h2>Keahlian</h2>
             <p>
                 Keahlian Saya adalah sebagai orang yang bisa memanajemen keuangan, 
                 memastikan proyek tetap sesuai anggaran adalah salah satu tantangan 
@@ -32,8 +57,8 @@
                 untuk menekan biaya jika diperlukan.
                 Untuk itu saya ingin menjadi seorang yang bisa memimpin keuangan di dalam perusahaan berskala besar.
             </p>
-      </article>
-    </section>
+            </article>
+            </main>
 
     </body>
 </html>
